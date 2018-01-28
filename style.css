@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow:300');
 
-#navUl{
-  text-align: center;
-  padding-left: 0px;
-  padding-right: 17%;
-  display: inline;
-  position: fixed;
-  z-index: 99999;
-  top: 0;
-  width: 100%;
+#navUl {
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 17%;
+	display: inline;
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	width: 100%;
 }
 .outerBox {
 	background-color: #f2f2f2;
-  padding-bottom: 5%;
-  padding-top: 5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
 }
 .title {
 	text-align: center;
@@ -29,7 +29,7 @@
 }
 .caption {
 	text-align: center;
-	text-size: 4px;
+	font-size: 10px;
 	font-family: Helvetica;
 }
 .imageBox {
@@ -45,7 +45,7 @@
 }
 img {
 	display: block;
-	max-width: 99%;
+	max-width: 75%;
 	margin: auto;
 	border-radius: 4px;
 	padding-bottom: 1%;
@@ -54,20 +54,20 @@ img {
 	margin-left: 20%;
 	margin-right: 20%;
 }
-ul{
-  padding-bottom: 5%;
+ul {
+	padding-bottom: 5%;
 }
 li {
 	font-size: 14px;
 	font-family: Helvetica;
 }
 #blockquote {
-  border-left: none;
-  font-size: 24px;
-  font-family: 'Barlow', sans-serif;
+	border-left: none;
+	font-size: 24px;
+	font-family: 'Barlow', sans-serif;
 }
 footer {
-  font-style: italic;
+	font-style: italic;
 }
 a:link {
 	text-align: center;
