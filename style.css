@@ -1,19 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow:300');
 
-#navUl {
+#navbar {
 	text-align: center;
-	padding-left: 0px;
-	padding-right: 17%;
-	display: inline;
+	background-color: black;
+	height: 40px;
+	padding-top: 8px;
+	padding-right: 32px;
 	position: fixed;
-	z-index: 99999;
-	top: 0;
-	width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+	left: 0px;
+}
+#navbar li {
+	display: inline;
+}
+#navbar a {
+	color: #ffffff;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
 }
 .outerBox {
 	background-color: #f2f2f2;
 	padding-bottom: 5%;
-	padding-top: 5%;
+	padding-top: 40px;
 }
 .title {
 	text-align: center;
@@ -54,24 +66,30 @@ img {
 	margin-left: 20%;
 	margin-right: 20%;
 }
-ul {
+.textbox ul {
 	padding-bottom: 5%;
 }
-li {
+.textbox li {
 	font-size: 14px;
 	font-family: Helvetica;
 }
-#blockquote {
+.quoteText {
 	border-left: none;
 	font-size: 24px;
 	font-family: 'Barlow', sans-serif;
+	padding-left: 40px;
 }
 footer {
 	font-style: italic;
 }
-a:link {
+
+.wiki {
+	padding-left: 40px;
+}
+.wiki a:link {
 	text-align: center;
 	color: #0059b3;
 	font-style: bold;
 	font-family: Arial;
+	text-decoration: none;
 }
