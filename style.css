@@ -2,9 +2,9 @@
 
 #navbar {
 	text-align: center;
-	background-color: black;
+	background-color: rgb(211, 208, 208);
 	height: 40px;
-	padding-top: 8px;
+	padding-top: 6px;
 	padding-right: 32px;
 	position: fixed;
     top: 0;
@@ -17,7 +17,7 @@
 	display: inline;
 }
 #navbar a {
-	color: #ffffff;
+	color: #706e6e;
 	padding: 10px;
 	font-size: 20px;
 	text-decoration: none;
